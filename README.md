@@ -1,6 +1,6 @@
 # Associate Android Developer Lab
 
-Examples of what is expected for [Google Developer Certification - Associate Android Developer Exam](https://www.udacity.com/google-certifications)
+Examples(where applicable) of what is expected for [Google Developer Certification - Associate Android Developer Exam](https://www.udacity.com/google-certifications)
 
 ## Testing and Debugging
 * [Write and execute a local JVM unit test](./testing-debugging/LocalTests)
