@@ -6,7 +6,7 @@ Examples(where applicable) of what is expected for [Google Developer Certificati
 * [Write and execute a local JVM unit test](./testing-debugging/LocalTests)
 * Write and execute a device UI test
 * Given a problem description, replicate the failure
-* Use the system log to output debug information
+* [Use the system log to output debug information](./testing-debugging/SystemLog)
 * Debug and fix an application crash (uncaught exception)
 * Debug and fix an activity lifecycle issue
 * Debug and fix an issue binding data to views
