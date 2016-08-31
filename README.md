@@ -11,12 +11,12 @@ Examples(where applicable) of what is expected for [Google Developer Certificati
 * Debug and fix an activity lifecycle issue
 * Debug and fix an issue binding data to views
 
-## Application User Interface (UI) and User Experience (UX)
+## [Application User Interface (UI) and User Experience (UX)](./ui-ux/LocalizedText)
 * Mock up the main screens and navigation flow of the application
 * Describe interactions between UI, background task, and data persistence
 * Construct a layout using XML or Java code
 * Create a custom view class and add it to a layout
-* Implement a custom application theme
+* [Implement a custom application theme](./ui-ux/CustomApplicationTheme)
 * Apply a custom style to a group of common widgets
 * Define a RecyclerView item list
 * Bind local data to a RecyclerView list
