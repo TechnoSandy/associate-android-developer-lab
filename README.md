@@ -21,7 +21,7 @@ Examples(where applicable) of what is expected for [Google Developer Certificati
 * Define a RecyclerView item list
 * Bind local data to a RecyclerView list
 * Implement menu-based or drawer navigation
-* Localize the application's UI text into one other language
+* [Localize the application's UI text into one other language](./ui-ux/LocalizedText)
 * Apply content descriptions to views for accessibility
 * Add accessibility hooks to a custom view
 

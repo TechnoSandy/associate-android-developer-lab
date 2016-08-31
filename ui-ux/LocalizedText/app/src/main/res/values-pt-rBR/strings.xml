@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Texto local</string>
+    <string name="large_text">
+        "O material é a metáfora \n\n
+
+        "Uma metáfora material é a teoria unificadora de um espaço racionalizado e um sistema de movimento."
+        "O material é baseado na realidade tátil, inspirado no estudo do papel e tinta, ainda"
+        "Tecnologicamente avançado e aberto à imaginação e magia. \n\n"
+        "Superfícies e bordas do material fornecer pistas visuais que se baseiam na realidade. O"
+        "O uso de atributos táteis familiares ajuda os usuários a entender rapidamente affordances. No entanto, o"
+        "Flexibilidade do material cria novas affordances que substituem aqueles na física"
+        "Mundial, sem quebrar as regras da física. \n\n"
+        "Os fundamentos da luz, superfície, e movimento são a chave para transmitir como os objetos se movem,"
+        "Interagem, e existem no espaço e em relação uns aos outros. Programas de iluminação realista"
+        "Costuras, divide espaço, e indica partes móveis \n\n
+
+        "Bold, gráfico, intencional \n\n
+
+        "Os elementos fundamentais de impressão tipografia baseada design, redes, espaço, escala, cor,"
+        "E uso de imagens guiar tratamentos visuais. Estes elementos fazem muito mais do que agradar ao"
+        "Olho. Eles criam hierarquia, significado e foco. Opções de cores deliberadas, de ponta a ponta"
+        "Imaginário, tipografia grande escala, e espaço em branco intencional criar um corajoso e gráfico"
+        "Interface que mergulhar o utilizador na experiência. \n\n"
+        "Uma ênfase em ações do usuário torna funcionalidade do núcleo imediatamente aparente e fornece"
+        "waypoints para o utilizador \n\n
+
+        "Motion fornece significado \n\n
+
+        "Aspectos movimento e reforça o usuário como o motor primário. Ações do usuário primárias são"
+        "pontos de inflexão que iniciam o movimento, transformando todo o projeto. \n\n"
+        "Toda a ação ocorre em um único ambiente. Os objetos são apresentados ao usuário, sem"
+        "Quebrar a continuidade da experiência, mesmo quando eles se transformam e reorganizar. \n\n"
+        "O movimento é significativa e adequada, servindo para concentrar a atenção e manter a continuidade."
+        "Feedback é sutil, mas clara. As transições são eficientes mas coerentes \n\n
+
+        "Mundo 3D \n\n
+
+        "O ambiente material é um espaço 3D, o que significa que todos os objectos têm X, Y, e Z"
+        "Dimensões. O eixo z é perpendicular ao plano alinhado da tela, com o"
+        "Eixo z positivo que se estende na direcção do observador. Cada folha de material ocupa um único"
+        "Posição ao longo do eixo z e tem uma espessura 1DP padrão. \n\n"
+        "Na web, o eixo z é utilizado para camadas e não para a perspectiva. O mundo 3D é"
+        "Emulado através da manipulação do eixo y \n\n
+
+        "Luz e sombra\n\n
+
+        "Dentro do ambiente material, luzes virtuais iluminar a cena. Luzes chave criar"
+        "Sombras direcionais, enquanto a luz ambiente cria sombras suaves de todos os ângulos. \n\n"
+        "Sombras no ambiente material são lançados por essas duas fontes de luz. No Android"
+        "Desenvolvimento, sombras ocorrer quando as fontes de luz são bloqueados por folhas de material em"
+        "várias posições ao longo do eixo z. Na web, sombras são representados pela manipulação do"
+        "Eixo y somente. O exemplo a seguir mostra o cartão com uma altura de 6DP \n\n
+
+        "Descansar elevação \n\n
+
+        "Todos os objetos materiais, independentemente do tamanho, tem uma elevação de descanso, ou elevação default"
+        "Que não muda. Se um objeto muda de altitude, ele deve retornar ao seu descanso"
+        "Elevação mais rapidamente possível \n\n
+
+        "elevações de componentes \n\n
+
+        "A elevação descansando por um tipo de componente é consistente em todos os aplicativos (por exemplo, FAB elevação"
+        "Não varia de 6DP em um app para 16dp em outro app). \n\n"
+        "Os componentes podem ter diferentes elevações de repouso em várias plataformas, dependendo da profundidade"
+        "Do ambiente (por exemplo, TV tem uma profundidade maior do que celular ou desktop) \n\n
+
+        "elevação e de elevação dinâmica Responsive offsets \n\n
+
+        "Alguns tipos de componentes têm elevação sensível, ou seja, eles mudam a elevação em resposta"
+        "A entrada do usuário (por exemplo, normal, focado, e pressionado) ou sistema de eventos. Estes elevação"
+        "As mudanças são consistentemente implementados usando deslocamentos de elevação dinâmicos. \n\n"
+        "Offsets elevação dinâmicos são a elevação meta que um componente se move em direção, relativa"
+        "Para o estado de repouso do componente. Eles garantem que as alterações de elevação são consistentes"
+        "Transversalmente ações e tipos de componentes. Por exemplo, todos os componentes que levantam na imprensa têm"
+        "A mesma mudança de elevação em relação à sua altitude de repouso. \n\n"
+        "Uma vez que o evento de entrada está concluída ou cancelada, o componente irá retornar ao seu descanso"
+        "elevação\n\n
+
+        "Para evitar a interferência de elevação \n\n
+
+        "Componentes com elevações de resposta pode encontrar outros componentes como eles se movem entre"
+        "Suas elevações de descanso e deslocamentos de elevação dinâmicos. Porque material não pode passar"
+        "Através de outro material, os componentes de evitar a interferência com um outro qualquer número de maneiras,"
+        "Seja em uma base por componente ou usando todo o layout do aplicativo. \n\n"
+        "Em um nível de componente, os componentes podem se mover ou ser removidos antes que eles causem interferência."
+        "Por exemplo, um botão de ação flutuante (FAB) pode desaparecer ou mover fora da tela antes de um"
+        "Usuário pega um cartão, ou ele pode mover-se se um snack-bar aparece. \n\n"
+        "No nível layout, projetar seu layout aplicativo para minimizar as oportunidades de interferência."
+        "Por exemplo, posicionar o FAB a um lado de uma corrente de cartões de modo a FAB não irá interferir"
+        "Quando um usuário tenta pegar um dos cartões \n\n
+    </string>
+    <string name="action_settings">configuracoes</string>
+</resources>
