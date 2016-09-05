@@ -17,7 +17,7 @@ Examples(where applicable) of what is expected for [Google Developer Certificati
 * Construct a layout using XML or Java code
 * Create a custom view class and add it to a layout
 * [Implement a custom application theme](./ui-ux/CustomApplicationTheme)
-* Apply a custom style to a group of common widgets
+* [Apply a custom style to a group of common widgets](./ui-ux/CustomStyle)
 * Define a RecyclerView item list
 * Bind local data to a RecyclerView list
 * Implement menu-based or drawer navigation
